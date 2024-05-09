@@ -16,7 +16,7 @@ const update=(deadline)=>{
     days.textContent=format(calDays);
     hours.textContent=format(calHour);
     minutes.textContent=format(calMin);
-    seconds.textContent=format(calcuSecs);
+    seconds.textContent=format(calcuSecs);//logic to be continued
    
    
    
