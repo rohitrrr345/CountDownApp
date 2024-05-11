@@ -72,6 +72,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,84,114,1) 35%, rgb
     justify-content: center;
     margin-bottom: 20px;
     color: white;
+    gap: 10px;
 
    }
    .adv input{
@@ -89,35 +90,46 @@ font-size: 18px;
     color: white;
     text-align: center;
    }
+   .adv button{
+    background-color: black;
+    color: white;
+   border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    font-size: 16px;
+    font-weight: 600;
+
+   }
 </style>
 <body>
     <main>
         
       <div class="adv ">
-        <input type="text" placeholder="Using this format">
+        <input type="text" placeholder=" june 01 2023 07:00" id="cin">
+        <button id="btn">Check</button>
       </div>
         <div class="ultra">
             <div class="sub">
               <div>
-                <span id="days">13</span>
+                <span id="days"></span>
                 <p>Days</p>
               </div>
             </div>
             <div class="sub">
                 <div>
-                    <span id="hours">13</span>
+                    <span id="hours"></span>
                     <p>Hours</p>
                   </div>
             </div>
             <div class="sub">
                 <div>
-                    <span id="minutes">13</span>
+                    <span id="minutes"></span>
                     <p>Minutes</p>
                   </div>
             </div>
             <div class="sub">
                 <div>
-                    <span id="seconds">13</span>
+                    <span id="seconds"></span>
                     <p>Seconds</p>
                   </div>
             </div>
